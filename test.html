@@ -1,0 +1,1079 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="test.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--header-->
+    <div class="main-navbar shadow-sm sticky-top">
+        <div class="top-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                        <h5 class="brand-name">Funda Ecom</h5>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <form role="search">
+                            <div class="input-group">
+                                <input type="search" placeholder="Search your product" class="form-control" />
+                                <button class="btn bg-white" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <ul class="nav justify-content-end">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="cart-link">
+                                    <i class="fa fa-shopping-cart"></i> Cart (0)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="wishlist-link">
+                                    <i class="fa fa-heart"></i> Wishlist (0)
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-user"></i> Username 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-list"></i> My Orders</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> My Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
+                    Funda Ecom
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">All Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Featured Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Electronics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fashions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Appliances</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!--car-->
+    <section id="section-1">
+      <div class="content-slider">
+        <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+        <input type="radio" id="banner2" class="sec-1-input" name="banner">
+        <input type="radio" id="banner3" class="sec-1-input" name="banner">
+        <input type="radio" id="banner4" class="sec-1-input" name="banner">
+        <div class="slider">
+          <div id="top-banner-1" class="banner">
+            <div class="banner-inner-wrapper">
+              <h2>Creative Template</h2>
+              <h1>Élégance<br>et Innovation en Mobilier</h1>
+              <div class="line"></div>
+              <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            </div>
+          </div>
+          <div id="top-banner-2" class="banner">
+            <div class="banner-inner-wrapper">
+              <h2>What We Do</h2>
+              <h1>Artisanat<br>Design Intérieur</h1>
+              <div class="line"></div>
+              <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
+            </div>
+          </div>
+          <div id="top-banner-3" class="banner">
+            <div class="banner-inner-wrapper">
+              <h2>Here We Are</h2>
+              <h1>L'Essence du Design<br> et du Confort </h1>
+              <div class="line"></div>
+              <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
+            </div>
+          </div>
+          <div id="top-banner-4" class="banner">
+            <div class="banner-inner-wrapper">
+              <h2>Our Contacts</h2>
+              <h1>Créations <br> d'Espaces Uniques</h1>
+              <div class="line"></div>
+              <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="controls">
+            <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Intro</label>
+            <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Work</label>
+            <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> About</label>
+            <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Contacts</label>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!--services-->
+    
+    <div class="content-103">
+        <div class="container">
+            <div class="row">
+              <div class="six">
+                <br>
+                <h1>SERVICES
+                </h1>
+                <br>
+              </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="service-post">
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fa fa-share-alt"></i>
+                            </div>
+                            <!-- service-icon -->
+                            <h3 class="service-title">Advertising</h3>
+                            <p class="service-description">Seitan brunch meh, food truck Wes Anderson quinoa XOXO readymade gastropub gluten-free heirloom wolf skateboard.</p>
+                        </div>
+                        <!-- service-content -->
+                        <div class="service-hover"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="service-post">
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fa fa-pencil"></i>
+                            </div>
+                            <!-- .s-icon -->
+                            <h3 class="service-title">Branding Design</h3>
+                            <p class="service-description">Seitan brunch meh, food truck Wes Anderson quinoa XOXO readymade gastropub gluten-free heirloom wolf skateboard.</p>
+                        </div>
+                        <!-- service-content -->
+                        <div class="service-hover"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="service-post">
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fa fa-lightbulb-o"></i>
+                            </div>
+                            <!-- .s-icon -->
+                            <h3 class="service-title">Creative Marketing</h3>
+                            <p class="service-description">Seitan brunch meh, food truck Wes Anderson quinoa XOXO readymade gastropub gluten-free heirloom wolf skateboard.</p>
+                        </div>
+                        <!-- service-content -->
+                        <div class="service-hover"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--card-->
+    <div class="container" id="depart">
+      <div class="six">
+        <br>
+        <h1>LUXE
+        </h1>
+        <br>
+      </div>
+        <div class="row  justify-content-center">
+         <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dw9bd05fc1/department-icons/sofas-and-couches.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Living room</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+           <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dw3650eaf9/department-icons/bedroom.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Bedroom</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+           <div class="col-12 col-sm-4 col-lg">
+            <a href="test1.html" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dw67d2449f/department-icons/mattresses.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Mattreses</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+           <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dwf1ee0190/department-icons/kitchen-and-dining-room.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Kitchen</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+           <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dwcd42390e/department-icons/kids.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Baby + Kids</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+            <!-- new -->
+          <div class="d-none d-lg-block w-100"></div>
+          <!-- new -->
+           <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dw3b1518f3/department-icons/outdoor.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Outdoor</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+        
+          <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dwa6d18fc6/department-icons/home-office_2.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Home office</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+          <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dw8fa96fd4/department-icons/home-decor.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Home decor</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+          <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dw647a07ed/department-icons/rugs.png" class="card-img-top border border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Rugs</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+          <div class="col-12 col-sm-4 col-lg">
+            <a href="#" class="a text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Sites-site-catalog-ashley-us/default/dweaca49a7/department-icons/lighting-top.png" class="card-img-top border  border-danger rounded-circle" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title text-center">Lighting</h5>   
+                </div>
+            </div>
+          </a> 
+          </div>
+      
+      
+        </div>
+      </div>
+      <div class="six">
+        <br>
+        <h1>PRODUIT
+
+        </h1>
+        <br>
+      </div>
+<br><br>
+<main class="main bd-grid">
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/2010-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/2020-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/2050__1_-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/bouclette_moutarde_tiffany_front-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+        
+    </article>
+     
+</main>
+<main class="main bd-grid">
+    <article class="card">
+        <div class="card__img">
+            <img src="images/chambre-a-coucher-01-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/chambre-a-coucher-lena-01-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/circus_bouclette_blanche_pack_03_gauche_front-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/file.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+</main> 
+<main class="main bd-grid">
+    <article class="card">
+        <div class="card__img">
+            <img src="images/pied_de_poule_gm_chill_long_side__1_-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/version_gauche_0065_c8_front.png-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/view-1-vc5_-_-velours-cotele-large-bleu-canard-3-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/view-1-vc5_-_-velours-cotele-large-bleu-canard-3-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+</main>
+<main class="main bd-grid">
+    <article class="card">
+        <div class="card__img">
+            <img src="images/view-1-vc5_-_-velours-cotele-large-bleu-canard-3-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/vue-1__1_-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/vue_4-removebg-preview (1).png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+
+    <article class="card">
+        <div class="card__img">
+            <img src="images/vue_7-removebg-preview.png" alt="">
+        </div>
+        <div class="card__name">
+            <p>AIR ZOOM PEGASUS</p>
+        </div>
+        <div class="card__precis">
+            <a href="#" class="card__icon wishlist-icon"><ion-icon name="heart-outline"></ion-icon></a>
+            
+            <div>
+                <span class="card__preci card__preci--before">$990.00</span>
+                <span class="card__preci card__preci--now">$749.00</span>
+            </div>
+            <a href="#" class="card__icon cart-icon"><ion-icon name="cart-outline"></ion-icon></a>
+        </div>
+    </article>
+</div>
+</main>
+<!--footer-->
+<br>
+<section class="history-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p class="title-bg-small wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="300ms">About us</p>
+          <h3 class="section-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="400ms">Our
+            <span>History</span></h3>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="history-slid" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item row">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+              <div class="carousel-item row">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+              <div class="carousel-item row">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/YXV3zmh/blog3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+              <div class="carousel-item row active">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+              <div class="carousel-item row">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+              <div class="carousel-item row">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/YXV3zmh/blog3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+              <div class="carousel-item row">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+              <div class="carousel-item row">
+                <div class="col-lg-6 col-md-12 pl-0">
+                  <div class="history-img">
+                    <img class="img-fluid" src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-12 pr-0">
+                  <div class="history-content">
+                    <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                      Lorem ipsum</p>
+                    <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Lorem ipsum dolor <span>sit amet</span></h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>
+                      Benefit of the socie where we operate. A success website obusly needs great design to be one of
+                      the top 10 IT companies in India but the web design is not enough.
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End off item-->
+            </div><!-- End off carusel inner -->
+            <!-- Indicators -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+  <div class="container" id="weTogether">
+    <h3 class=" d-flex  justify-content-center  justify-content-sm-start mt-5">We are in this together</h3>
+    <div class="row">
+       <div class="col-12 col-sm-6 col-lg-3">
+         
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Library-Sites-AshcommSharedLibrary/default/dw7febee45/images/homepage/footer/20200512/MDS_N1b_Footer_DK.jpg" class="card-img-top border-0" alt="..." >
+                <div class="card-body"> 
+                </div>
+            </div>
+          
+       </div>
+       <div class="col-12 col-sm-6 col-lg-3">
+         <a href="#" class=" text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Library-Sites-AshcommSharedLibrary/default/dwa6370a3f/images/homepage/footer/20200512/MDS_N1c_Footer_DK.jpg" class="card-img-top border-0" alt="..." >
+                <div class="card-body"> 
+                </div>
+            </div>
+          </a>
+       </div>
+       <div class="col-12 col-sm-6 col-lg-3">
+         <a href="#" class=" text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Library-Sites-AshcommSharedLibrary/default/dw6f39ef25/images/homepage/footer/20200512/MDS_N1a_Footer_DK.jpg" class="card-img-top border-0" alt="..." >
+                <div class="card-body"> 
+                </div>
+            </div>
+          </a>
+       </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+         <a href="#" class=" text-secondary nav-link ">
+             <div class="card border-0">
+                <img src="https://www.ashleyfurniture.com/on/demandware.static/-/Library-Sites-AshcommSharedLibrary/default/dw2ce0442b/images/homepage/footer/20200512/MDS_N1d_Footer_DK.jpg" class="card-img-top border-0" alt="..." >
+                <div class="card-body"> 
+                </div>
+            </div>
+          </a>
+       </div>
+    </div>
+</div>
+<br><br>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="test.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
